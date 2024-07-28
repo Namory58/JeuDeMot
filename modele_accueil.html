@@ -9,6 +9,7 @@
     <div class="grid">
         <p>Le mot à deviner est : <span class="word">{{ mot }}</span></p>
         <p>taille totale : <span>{{ size }}</span></p>
+        <p>{{error |safe}}</p>
     </div>
     
     <form action="/req_jouer" method="GET">
